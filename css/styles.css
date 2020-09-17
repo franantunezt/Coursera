@@ -1,0 +1,225 @@
+body{
+    margin: auto;
+    padding: 0;
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+}
+
+/* DESKTOP VERSION */
+
+@media(min-width: 992px){
+    .box1 , .box2 , .box3{
+        float: left;
+        border: black solid;
+        padding: 0px 20px 20px 20px;
+        width: 32%;
+        margin-left: 10px;
+        background-color: grey;
+        box-sizing: border-box;
+        position: relative;
+        
+    }
+    
+    .content{
+        text-align: left;
+    }
+    .chicken{
+        border-left: solid black;
+        border-bottom: solid black;
+        width: 100px;
+        text-align: center;
+        background-color: indianred;
+        padding: 5px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    
+    }
+    .beef{
+        color: white;
+        border-left: solid black;
+        border-bottom: solid black;
+        width: 100px;
+        text-align: center;
+        background-color: rgb(138, 47, 47);
+        padding: 5px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    
+    }
+    
+    .sushi{
+        border-left: solid black;
+        border-bottom: solid black;
+        width: 100px;
+        text-align: center;
+        background-color: rgb(194, 204, 107);
+        padding: 5px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    
+    }
+
+}
+
+
+/* TABLET VERSION */
+@media(min-width: 768px) and (max-width: 992px){
+    .box1 , .box2{
+        float: left;
+        border: black solid;
+        padding: 0px 20px 20px 20px;
+        width: 48%;
+        margin-left: 10px;
+        margin-top: 20px;
+        background-color: grey;
+        box-sizing: border-box;
+        position: relative;
+        
+    }
+    .box3{
+        float: left;
+        border: black solid;
+        padding: 0px 20px 20px 20px;
+        width: 97%;
+        margin-left: 10px;
+        margin-top: 20px;
+        background-color: grey;
+        box-sizing: border-box;
+        position: relative;
+
+    }
+    
+    .content{
+        text-align: left;
+    }
+    .chicken{
+        border-left: solid black;
+        border-bottom: solid black;
+        width: 100px;
+        text-align: center;
+        background-color: indianred;
+        padding: 5px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    
+    }
+    .beef{
+        color: white;
+        border-left: solid black;
+        border-bottom: solid black;
+        width: 100px;
+        text-align: center;
+        background-color: rgb(138, 47, 47);
+        padding: 5px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    
+    }
+    
+    .sushi{
+        border-left: solid black;
+        border-bottom: solid black;
+        width: 100px;
+        text-align: center;
+        background-color: rgb(194, 204, 107);
+        padding: 5px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    
+    }
+
+}
+
+/* MOBILE VERSION */
+@media(max-width: 768px){
+    .box1{
+        float: left;
+        border: black solid;
+        padding: 0px 20px 20px 20px;
+        width: 97%;
+        margin-left: 10px;
+        margin-top: 20px;
+        background-color: grey;
+        box-sizing: border-box;
+        position: relative;
+        
+    }
+
+    .box2{
+        float: left;
+        border: black solid;
+        padding: 0px 20px 20px 20px;
+        width: 97%;
+        margin-left: 10px;
+        margin-top: 20px;
+        background-color: grey;
+        box-sizing: border-box;
+        position: relative;
+        
+    }
+
+    .box3{
+        float: left;
+        border: black solid;
+        padding: 0px 20px 20px 20px;
+        width: 97%;
+        margin-left: 10px;
+        margin-top: 20px;
+        background-color: grey;
+        box-sizing: border-box;
+        position: relative;
+
+    }
+    
+    .content{
+        text-align: left;
+    }
+    .chicken{
+        border-left: solid black;
+        border-bottom: solid black;
+        width: 100px;
+        text-align: center;
+        background-color: indianred;
+        padding: 5px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    
+    }
+    .beef{
+        color: white;
+        border-left: solid black;
+        border-bottom: solid black;
+        width: 100px;
+        text-align: center;
+        background-color: rgb(138, 47, 47);
+        padding: 5px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    
+    }
+    
+    .sushi{
+        border-left: solid black;
+        border-bottom: solid black;
+        width: 100px;
+        text-align: center;
+        background-color: rgb(194, 204, 107);
+        padding: 5px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    
+    }
+
+}
